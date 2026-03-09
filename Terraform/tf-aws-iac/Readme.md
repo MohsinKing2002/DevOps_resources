@@ -1,5 +1,10 @@
+# Provisioning AWS Infrastruction using Terraform
+
 ref -> https://medium.com/@mdtazbinur/terraform-in-action-provisioning-aws-ec2-with-vpc-security-groups-subnet-more-cf3cdca05739
 
+## Folder Structure
+
+```
 terraform-aws-iac/
 ├── main.tf # Root entry point that calls all modules
 ├── variables.tf # Variables required for the root module
@@ -13,15 +18,15 @@ terraform-aws-iac/
 │ │ ├── main.tf
 │ │ ├── variables.tf
 │ │ └── outputs.tf
-│ ├── subnet/
+│ ├── subnet/ ✅
 │ │ ├── main.tf
 │ │ ├── variables.tf
 │ │ └── outputs.tf
-│ ├── route_table/
+│ ├── route_table/ ✅
 │ │ ├── main.tf
 │ │ ├── variables.tf
 │ │ └── outputs.tf
-│ ├── security_group/
+│ ├── security_group/ ✅
 │ │ ├── main.tf
 │ │ ├── variables.tf
 │ │ └── outputs.tf
@@ -29,3 +34,4 @@ terraform-aws-iac/
 │ ├── main.tf
 │ ├── variables.tf
 │ └── outputs.tf
+```

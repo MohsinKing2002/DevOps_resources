@@ -1,11 +1,19 @@
-# CIDR - Classless Inter-Domain Routing
-# For a VPC, it defines the IP address range available to that network.
-variable "vpc_cidr" {
+variable "vpc_id" {
   type = string
-  description = "CIDR block for the VPC"
+  description = "VPC ID for the Subnet"
 }
 
-variable "vpc_name" {
+variable "subnet_cidr" {
   type = string
-  description = "Name tag for the VPC"
+  description = "CIDR for the Subnet"
+}
+
+variable "availability_zone" {
+  type = string
+  description = "Availability zone for Subnet"
+}
+
+variable "subnet_name" {
+  type = string
+  description = "Name tag for Subnet"
 }
