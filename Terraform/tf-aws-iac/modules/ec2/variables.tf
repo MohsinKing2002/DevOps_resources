@@ -1,6 +1,6 @@
 variable "ami_id" {
   type = string
-  description = "AMI id for EC2"
+  description = "AMI Id for EC2"
 }
 
 variable "instance_type" {
@@ -20,12 +20,12 @@ variable "security_group_id" {
 
 variable "key_name" {
   type = string
-  description = "-"
+  description = "SSH key-pair name for remote access"
 }
 
 variable "volume_size" {
-  type = string
-  description = "Volume size for the EC2"
+  type = number
+  description = "EBS Volume size for the EC2 (in GB)"
 }
 
 variable "instance_name" {
