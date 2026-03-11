@@ -15,7 +15,7 @@ variable "aws_az" {
 variable "vpc_cidr" {
   type = string
   description = "CIDR block for the VPC"
-  default = "10.0.0.0/16" # ??
+  default = "10.0.0.0/16"
 }
 
 variable "vpc_name" {
@@ -36,7 +36,7 @@ variable "igw_name" {
 variable "subnet_cidr" {
   type = string
   description = "CIDR block for the Subnet"
-  default = "10.0.0.0/24" # ??
+  default = "10.0.1.0/24"
 }
 
 variable "subnet_name" {
