@@ -69,7 +69,7 @@ variable "security_group_description" {
 variable "ec2_ami_id" {
   type = string
   description = "AMI id to use for launching EC2 instance"
-  default = "ami-*****"
+  default = "ami-0b6c6ebed2801a5cb"
 }
 
 variable "ec2_instance_type" {
@@ -81,7 +81,7 @@ variable "ec2_instance_type" {
 variable "ec2_key_name" {
   type = string
   description = "Name of the SSH key pair for remote access"
-  default = "stage-server-keypair"
+  default = "stage-server-ssh-kp"
 }
 
 variable "ec2_volume_size" {

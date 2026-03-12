@@ -130,6 +130,13 @@ EC2                 →   Building
 
 ## References
 
+#### Showcasing Output
+
+1. VPC
+   ![VPC](./assets/vpc.png)
+2. EC2
+   ![EC2](./assets/ec2.png)
+
 #### Medium blog:
 
 https://medium.com/@mdtazbinur/terraform-in-action-provisioning-aws-ec2-with-vpc-security-groups-subnet-more-cf3cdca05739
